@@ -2,7 +2,7 @@
 # = Function calculates the arithemetic mean of the values given by the user =
 # = Written by Paolo Gomez                                                   =
 # = 09 December 2022                                                         =
-# = Language: Python                                                         =
+# = Language: Python (3.10.8)                                                =
 # ============================================================================
 def calcMean(List1, List2, size1, size2, total1, total2):
     for x in range(0, size1):
@@ -18,7 +18,7 @@ def calcMean(List1, List2, size1, size2, total1, total2):
 # = Function that calculates the sample variance of the values given by the user =
 # = Written by Paolo Gomez                                                       =
 # = 09 December 2022                                                             =
-# = Language: Python                                                             =
+# = Language: Python (3.10.8)                                                    =
 # ================================================================================
 def calcVar(List1, mean1, size1, total):
     for num in range(0, size1):
@@ -35,7 +35,7 @@ def calcVar(List1, mean1, size1, total):
 # = the sample variance, and the standard deviation of each list                             =
 # = Written by Paolo Gomez                                                                   =
 # = 09 December 2022                                                                         =
-# = Language: Python                                                                         =
+# = Language: Python (3.10.8)                                                                =
 # ============================================================================================
 
 def main():
